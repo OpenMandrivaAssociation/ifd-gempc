@@ -9,6 +9,7 @@ Source1: http://ludovic.rousseau.free.fr/softwares/ifd-GemPC/ifd-gempc-%{version
 URL: http://ludovic.rousseau.free.fr/softwares/ifd-GemPC/index.html
 BuildRequires: libpcsclite-devel
 BuildRequires: libusb-devel
+BuildRoot: %{_tmppath}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package provides a PCSC-lite driver for Gemplus 410 and 430
