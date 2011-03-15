@@ -1,7 +1,7 @@
 Name: ifd-gempc
 Summary: Gemplus 410 and 430 Smartcard reader driver
-Version: 1.0.1
-Release: %mkrel 4
+Version: 1.0.6
+Release: %mkrel 1
 License: GPL/BSD
 Group: System/Libraries
 Source0: http://ludovic.rousseau.free.fr/softwares/ifd-GemPC/ifd-gempc-%{version}.tar.gz
