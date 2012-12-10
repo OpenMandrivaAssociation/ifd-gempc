@@ -82,3 +82,29 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/pcsc/drivers/serial/*
 
 
+
+
+%changelog
+* Wed Mar 16 2011 Stéphane Téletchéa <steletch@mandriva.org> 1.0.6-1mdv2011.0
++ Revision: 645238
+- update to new version 1.0.6
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.0.1-3mdv2009.0
++ Revision: 247207
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 1.0.1-1mdv2008.1
++ Revision: 126994
+- kill re-definition of %%buildroot on Pixel's request
+- import ifd-gempc
+
+
+* Mon Mar 13 2006 Andreas Hasenack <andreas@mandriva.com> 1.0.1-1mdk
+- packaged for Mandriva, based on work done by
+  Lauri Jesmin <lauri.jesmin@nordtech.ee>
