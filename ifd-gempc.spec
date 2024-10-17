@@ -6,7 +6,7 @@ Version:	1.0.8
 Release:	1
 License:	GPL/BSD
 Group:		System/Libraries
-Url:		http://ludovic.rousseau.free.fr/softwares/ifd-GemPC/index.html
+Url:		https://ludovic.rousseau.free.fr/softwares/ifd-GemPC/index.html
 Source0:	http://ludovic.rousseau.free.fr/softwares/ifd-GemPC/ifd-gempc-%{version}.tar.gz
 Source1:	http://ludovic.rousseau.free.fr/softwares/ifd-GemPC/ifd-gempc-%{version}.tar.gz.asc
 BuildRequires:	pkgconfig(libpcsclite)
