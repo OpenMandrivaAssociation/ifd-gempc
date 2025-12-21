@@ -9,6 +9,7 @@ Group:		System/Libraries
 Url:		https://ludovic.rousseau.free.fr/softwares/ifd-GemPC/index.html
 Source0:	http://ludovic.rousseau.free.fr/softwares/ifd-GemPC/ifd-gempc-%{version}.tar.gz
 Source1:	http://ludovic.rousseau.free.fr/softwares/ifd-GemPC/ifd-gempc-%{version}.tar.gz.asc
+BuildRequires:	make
 BuildRequires:	pkgconfig(libpcsclite)
 BuildRequires:	pkgconfig(libusb)
 
